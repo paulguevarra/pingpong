@@ -22,9 +22,24 @@
             <h2>Let's Play</h2>
             <p>Ping Pong will count up to your number from 1 to your chosen number</p>
             <ol>
-              <li>Numbers divisible by <em>3</em> are replaced with <strong>Ping</strong></li>
-              <li>Numbers divisible by <em>5</em> are replaced with <strong>Ping</strong></li>
-              <li>Numbers divisible by <em>15</em> are replaced with <strong>Ping</strong></li>
+              <li>Numbers divisible by <em>3</em> are replaced with <strong>Ping</strong>
+                <ul>
+                  <li>example: "1, 2, 3, 4"</li>
+                  <li>becomes: "1, 2, <em>PING</em>, 4"</li>
+                </ul>
+              </li>
+              <li>Numbers divisible by <em>5</em> are replaced with <strong>PONG</strong>
+                <ul>
+                  <li>example: "49, 50, 51"</li>
+                  <li>becomes: "49,<em>PONG</em>, 51"</li>
+                </ul>
+              </li>
+              <li>Numbers divisible by <em>15</em> are replaced with <strong>PING-PONG</strong>
+                <ul>
+                  <li>example: "13, 14, 15, 16"</li>
+                  <li>becomes: "13, 14, <em>PING-PONG</em>, 16"</li>
+                </ul>
+              </li>
               <li>All other numbers remain normal</li>
             </ol>
           </div>
