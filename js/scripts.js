@@ -4,7 +4,9 @@ function toChange(userIn){
 
   /*countform*/
   for(var i=1; i<=userIn; i++){
-
+    if((i%3)===0) {
+      output += "ping" + " ";
+    } else {
       output += i + " ";
     }
   };
