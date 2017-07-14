@@ -10,13 +10,47 @@
   <body>
     <div class="container">
       <h1>Ping Pong</h1>
-      <form id="inputForm">
-        <label for="userNumber">Enter your number here </label>
-        <input id="userNumber" type="number">
-        <button type="submit" name="btn">Submit</button>
-      </form>
-      <p><span id="result"></span></p>
-    </div>
+      <div class="row">
+        <div class="col-sm-5 well">
+          <div class="aboutPong">
+            <h2>About</h2>
+            <p>Ping Pong will count up to your number from 1 to your chosen number</p>
+          </div>
+        </div>
+        <div class="col-sm-5 well">
+          <h2>Let's Play</h2>
+          <p>Ping Pong will count up to your number from 1 to your chosen number</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 well">
+            <div id="myForm">
+              <form id="inputForm">
+                <label for="userNumber">Enter your number here </label>
+                <input id="userNumber" type="number">
+                <button type="submit" name="btn">Submit</button>
+              </form>
+            </div>
+          </div>
+          <div class="container">
+            <div class="col-sm-5 well">
+              <div id="myResults">
+                <h3>Here are the results:</h3>
+                <br>
+                <br>
+                <p><span id="result"></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
 
+
+
+
+
+      </div>
+
+    </div>
   </body>
 </html>
