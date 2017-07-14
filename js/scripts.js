@@ -1,6 +1,11 @@
 //back end
-function toChange(userInput){
-  output = userInput
+function toChange(userIn){
+  var output = "";
+  for(var i=1; i<=userIn; i++){
+    output += i
+  }
+
+
 
   return output;
 }
