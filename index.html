@@ -9,17 +9,26 @@
   </head>
   <body>
     <div class="container">
-      <h1>Ping Pong</h1>
+      <div class="row">
+        <div class="col-sm-10 well" id="myTitle">
+          <h1 id="">Ping Pong</h1>
+        </div>
+      </div>
       <div class="container">
         <div class="row">
           <div class="col-sm-5 well" id="about">
             <div>
-              <h2>About</h2>
-              <p>Ping Pong will count up to your number from 1 to your chosen number</p>
+              <h2>About Ping Pong</h2>
+              <h3>Created by:</h3>
+              <p><strong>Paul Guevarra</strong></p>
+              <h3>GitHub Username/URL:</h3>
+              <p><a href="https://github.com/paulguevarra">paulguevarra</a></p>
+              <br>
+              <img src="img/paddles.png" id="backImg">
             </div>
           </div>
           <div class="col-sm-5 well" id="describe">
-            <h2>Let's Play</h2>
+            <h2>How It Works</h2>
             <p>Ping Pong will count up to your number from 1 to your chosen number</p>
             <ol>
               <li>Numbers divisible by <em>3</em> are replaced with <strong>Ping</strong>
@@ -49,20 +58,22 @@
         <div class="row">
           <div class="col-sm-5 well" id="myForm">
             <div>
+              <h2>Let's Play</h2>
               <form id="inputForm">
                 <label for="userNumber">Enter your number here </label>
                 <input id="userNumber" type="number">
                 <button type="submit" name="btn">Submit</button>
               </form>
+              <img src="img/face.jpeg" alt="paddleImage" />
             </div>
           </div>
           <div class="container">
             <div class="col-sm-5 well" id="myResults">
               <div>
-                <h3>Here are the results:</h3>
+                <h2>Here are the results:</h2>
                 <br>
                 <br>
-                <p><span id="result"></span></p>
+                <p class="newResult"><span id="result"></span></p>
               </div>
             </div>
           </div>

@@ -5,13 +5,13 @@ function toChange(userIn){
   /*countform*/
   for(var i=1; i<=userIn; i++){
     if((i%15)===0){
-      output += "ping-pong" + " ";
+      output += "ping-pong" + ", ";
     } else if ((i%5)===0) {
-      output += "pong" + " ";
+      output += "pong" + ", ";
     } else if ((i%3)===0) {
-      output += "ping" + " ";
+      output += "ping" + ", ";
     } else {
-      output += i + " ";
+      output += i + ", ";
     }
   };
   return output;
